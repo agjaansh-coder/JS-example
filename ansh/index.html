@@ -1,0 +1,36 @@
+<html>
+    <body>
+
+        <input id="avalue" type="number" > <br> <br>
+        <input id="bvalue" type="number" > <br> <br>
+
+        <button onclick="calc();">+</button>
+        <button onclick="calc();">-</button>
+        <button onclick="calc();">*</button>
+        <button onclick="calc();">/</button>
+
+       <text></text>
+
+    </body>
+
+        <script>
+
+            a = document.getElementById("avalue");
+             b = document.getElementById("bvalue");
+
+             function calc(){
+
+               
+                c=parseInt(a.value) + parseInt(b.value);
+               console.log(c);
+               d=parseInt(a.value) - parseInt(b.value);
+               console.log(d);
+              e=parseInt(a.value) * parseInt(b.value);
+               console.log(e);
+               f=parseInt(a.value) / parseInt(b.value);
+               console.log(f);
+            }
+
+        </script>
+    
+</html>
